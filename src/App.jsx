@@ -11,20 +11,20 @@ todo - cálculo do preço total dos itens inseridos
 
 todo - FUNCIONALIDADE EXTRA: aplicação de cupom de desconto
 */
-import './styles.scss';
+import "./styles.scss";
 
-import PageHeader from './layout/PageHeader';
-import PageTitle from './layout/PageTitle';
-import Summary from './Summary';
-import TableRow from './TableRow';
+import PageHeader from "./layout/PageHeader";
+import PageTitle from "./layout/PageTitle";
+import Summary from "./Summary";
+import TableRow from "./TableRow";
 
 function App() {
   return (
     <>
       <PageHeader />
       <main>
-        <PageTitle data={'Seu carrinho'} />
-        <div className='content'>
+        <PageTitle data="carrinho" />
+        <div className="content">
           <section>
             <table>
               <thead>
